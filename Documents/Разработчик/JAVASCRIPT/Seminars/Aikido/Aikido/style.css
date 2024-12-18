@@ -1,0 +1,84 @@
+﻿
+.rock-salt-regular {
+        font-family: "Rock Salt", cursive;
+        font-weight: 800;
+        font-size: 40px;
+        color: chocolate;
+        font-style: normal;
+        line-height: 0px;
+}
+.reggae-one-regular {
+    font-family: "Reggae One", system-ui;
+    font-weight: 800;
+    font-size: 100px;
+    font-style: normal;
+    color: red;
+    line-height: 60px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title {
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+}
+.logo {
+    padding: 20px;
+}
+.logoTitle {
+    width: 1000px;
+    text-align: center;
+}
+.founder__info {
+    display: flex;
+    flex-direction: row;
+}
+.founder__info-text {
+    width: 622px;
+    background-color: rgb(36, 34, 34);
+    border: ;
+}
+.text {
+    font-family: "Rock Salt", cursive;
+    font-size: 19px;
+    color: blanchedalmond;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.color {
+    color: red;
+}
+.color-2 {
+    color:rgb(52, 7, 7)
+}
+.size-1 {
+    font-size: 25px;
+}
+.aikido {
+    height: 360px;
+    background-color: bisque;
+}
+.aikido-notes {
+    width: 1200px;
+}
+.notes__back-image {
+    height: 1000px;
+    background-image: url('./image/BackAikido.webp');
+    background-size: cover;
+    border: 2px solid black;
+}
